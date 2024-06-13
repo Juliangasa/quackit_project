@@ -37,12 +37,25 @@ header{
     display: flex;
 }
 
+.log{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 93.05px;
+    padding: 15px;
+}
+
 .log-ul h3{
+    font-size: 18px;
     display: flex;
     align-items: center;
     color: #9d9d9d;
     height: 50px;
     margin: 0px;
+}
+
+.log-ul .log span{
+    font-size: 18px;
 }
 
 .log-ul span{
@@ -87,8 +100,6 @@ header{
     text-decoration: none;
 }
 
-
-
 .log-ul a:hover{
     color: white;
     text-decoration: none;
@@ -102,3 +113,40 @@ header{
     color: white;
 }
 
+.engage-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 288.9px;
+    background-color: #9ACD32;
+    padding: 48px 0px;
+}
+
+.engage-section h1{
+    text-align: center;
+    color: #ADFF2F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 63px;
+
+}
+
+.engage-section p{
+    text-align: center;
+    color: #ADFF2F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+
+.engage-section .engage-bttn{
+    width: 105.78px;
+    height: 33.6px;
+    padding: 6px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color:  #337ab7;
+    color: white;
+    border: none;
+}
