@@ -1,0 +1,1 @@
+The present project is outline design using only html and css intended to create visual cloned draft of the original website https://www.quackit.com/html/templates/download/bootstrap/corporate-1a/index.html#   
